@@ -1,5 +1,5 @@
-package ObjectModel;
-import ObjectModel.EnumLib.*;
+package com.bizsev.fridge.ObjectModel.Food;
+import com.bizsev.fridge.ObjectModel.Food.EnumLib.*;
 
 /**
  * Created by egorb_000 on 30.01.2015.
