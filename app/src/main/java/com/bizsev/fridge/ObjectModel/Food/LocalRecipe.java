@@ -1,5 +1,7 @@
 package com.bizsev.fridge.ObjectModel.Food;
 
+import android.media.Image;
+
 import java.util.List;
 
 /**
@@ -7,11 +9,13 @@ import java.util.List;
  */
 public class LocalRecipe {
     private int localRecipeID;
+    private int userID; // author
     private int reviewID;
     private int globalID;
 
     private String name;
     private String comment;
+    private Image img;
 
     private List<LocalRecipeStep> steps;
 }
